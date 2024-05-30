@@ -10,8 +10,7 @@ The main goal of this interface is to estimate the good energy value to be used 
 You just have to enter the setup paramter to simulate the analyzer state and the coverd k range
 
 <img src="screenshot_app.png"
-     alt="gui" width="600" height="450"
-      style="float: center"/>
+     alt="gui" class="center" width="600" height="400" />
 
 
 ## Installation
