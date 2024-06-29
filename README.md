@@ -2,7 +2,7 @@
 
 
 ## Description
-This project provides an interface simulating probed part of the BZ depending on the position of the slit and the setup parameters (rotation, tilt). It can be useful in the real beamtime which is very valuable. 
+This project provides an interface simulating probed part of the Brillouin Zone (BZ) depending on the position of the slit and the setup parameters (rotation, tilt). By tuning the ARPES geometry and experimental parameters, you can get a close idea of the 2D BZ part being probed. This kind of info can be useful in the real beamtime which is very valuable. Until now, only hexagonal lattice system is included.
 <br>  
 The main goal of this interface is to estimate the good energy value to be used to cover the desirable k range.
 
@@ -10,7 +10,8 @@ The main goal of this interface is to estimate the good energy value to be used 
 You just have to enter the setup paramter to simulate the analyzer state and the coverd k range
 
 <img src="screenshot_app.png"
-     alt="gui" class="center" width="600" height="400" />
+     alt="gui" width="600" height="450"
+      style="float: center"/>
 
 
 ## Installation
@@ -22,6 +23,7 @@ The gui is tested under a python 3.8 version. (I recommend to setup a python 3.8
 
 ## Roadmap
  <ul>
+  <li>Cover the rest of the cristallographic lattice system</li>
   <li>Avoid the crash of the app in case of empty value</li>
   <li>Transform the project on a desktop application or create a PyPI package</li>
 </ul> 
