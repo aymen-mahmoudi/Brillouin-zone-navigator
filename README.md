@@ -1,4 +1,4 @@
-# Analyzer Simulator
+# Brillouin Zone Navigator
 
 
 ## Description
